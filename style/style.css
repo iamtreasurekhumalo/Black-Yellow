@@ -1,0 +1,210 @@
+/* CSS Document */
+/****
+Author name: Treasure Khumalo
+Author URL www.iamtreasure.me
+
+****/
+/* BODY FONT */
+@font-face {
+	font-family:Gill Sans Ultra Bold;
+	src:url(../font/GILSANUB.TTF);
+}
+
+html,section,article,a,p,h1,h2,h3,h4,h5,h6,form {
+	font-family:Gill Sans Ultra Bold;
+	font-size: 18px;
+}
+
+body {
+	font-family:Gill Sans Ultra Bold;
+}
+
+/* Intro */
+.intro {
+	padding: 13% 0 8% 0;
+}
+.intro h1 {
+	font-family: Gill Sans Ultra Bold;
+	font-size: 120px;
+	text-align: center;
+}
+
+.intro h3 {
+	font-family:GILLSans Regular;
+	text-align: center;
+	font-size: 40px;
+}
+
+/* About */
+
+.about h1 {
+	font-family: Gill Sans Ultra Bold;
+	padding: 10% 0 3% 0;
+	text-align: center;
+}
+
+.about p {
+	font-family:Gill Sans Ultra Bold;
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 10%;
+}
+
+.services {
+	background-color: #000;
+	margin-top: 5%;
+	padding-bottom: 5%;
+}
+
+.services-info {
+	
+	padding-top: 5%;
+}
+
+.services h1 {
+	font-family: Gill Sans Ultra Bold;
+	text-align: center;
+	color: #ffce06;
+	padding: 5% 0 3% 0;
+}
+
+.services h2 {
+	font-family: Gill Sans Ultra Bold;
+	color: #fff;
+	margin-left: 20px;
+}
+
+.services p {
+	font-family:GILLSans Regular;
+	font-size: 20px;
+	color: #fff;
+	margin-left: 90px;
+}
+
+.services img {
+	width: 60px;
+	padding-right: 20px;
+}
+
+/** WORK */
+
+.work-content {	
+	padding: 10% 0;
+}
+
+.work-content img {
+	margin-bottom: 20px;
+}
+
+/* team */
+
+.team {
+	margin: 0 1%;
+}
+
+.team h2 {
+	font-family: Gill Sans Ultra Bold;
+	text-align: center;
+}
+
+.team h4 {
+	font-family:GILLSans Regular;
+	font-size: 25px;
+	text-align: center;
+}
+
+.testimonies {
+	margin-top: 10%;
+	padding: 10% 0;
+}
+
+/* Quotation */
+.quotation {
+	padding: 10% 0;
+}
+.quotation h1 {
+	font-family: Gill Sans Ultra Bold;
+	text-align: center;
+}
+
+.quotation h2 {	
+	text-align: center;
+	margin: 5% 0;
+}
+
+.quotation a {
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	background-color: #333;
+	border-radius: 8px;
+	padding: 25px 20px;
+}
+
+.quotation a:hover {
+	color: #333;
+	text-align: center;
+	text-decoration: none;
+	background-color: #fff;
+	
+	-webkit-transition: background .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out;
+	-ms-transition: background .5s ease-in-out;
+	-o-transition: background .5s ease-in-out;
+	transition: background .5s ease-in-out;	 
+}
+
+/* Contact */
+
+.contact {
+	background-color: #333;
+	padding: 7% 0;
+}
+
+.contact h1 {
+	font-family: Gill Sans Ultra Bold;
+	color: #fff;
+}
+
+.contact p {
+	font-family:GILLSans Regular;
+	color: #808285;
+}
+
+.contact a {
+	font-family:GILLSans Regular;
+	color: #808285;
+}
+
+.contact img {
+	margin-left: -10px;
+}
+
+.contact a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer {
+	background-color: #000;
+	padding: 15px 5px;
+}
+
+footer p{
+	font-family:GILLSans Regular;
+	color: #fff;
+} 
+
+footer a{
+	font-family:GILLSans Regular;
+	text-decoration: none;
+}
+
+footer a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
